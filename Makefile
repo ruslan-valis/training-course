@@ -17,6 +17,10 @@ vendor/bin/phpcbf app
 phpmd : ;\
 vendor/bin/phpmd app ansi phpmd.xml
 
+.PHONY: phpstan
+phpstan : ;\
+vendor/bin/phpstan
+
 .PHONY: test
 test :
 
