@@ -132,3 +132,7 @@ yarn-error.log
 /.phpcs-cache
 /phpcs.xml
 ###< squizlabs/php_codesniffer ###
+
+###> squizlabs/php-cs-fixer ###
+/.php-cs-fixer.cache
+###< squizlabs/php-cs-fixer ###
