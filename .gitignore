@@ -120,3 +120,10 @@ npm-debug.log
 yarn-error.log
 /.fleet
 ###< laravel/laravel ###
+
+###> docker-compose
+/docker/mysql/data/*
+!/docker/mysql/data/.gitkeep
+!/docker/logs/.gitkeep
+#/docker/logs/*
+###< docker-compose
