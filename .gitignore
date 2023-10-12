@@ -125,5 +125,5 @@ yarn-error.log
 /docker/mysql/data/*
 !/docker/mysql/data/.gitkeep
 !/docker/logs/.gitkeep
-#/docker/logs/*
+/docker/logs/*
 ###< docker-compose
